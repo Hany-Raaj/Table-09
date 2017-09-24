@@ -1,0 +1,120 @@
+body{
+	font-family: tahoma;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.hero{
+	margin-top: 130px;
+}
+
+header{  
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/food.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.logo{
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.main-nav li a:hover{
+	color: #FF0000;
+}
+
+.btn{
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	transition: 0.5s;
+
+}
+
+.hero a:hover{
+	color: white;
+}
+
+.hero a.btn-full{
+	background-color: #FF0000;
+	border: 1px solid #FF0000;
+}
+
+.hero a.btn-full:hover{
+	color: white;
+	border: 1px solid white;
+}
+
+.hero a.btn-half:hover{
+	color: #FF0000;
+}
+
+.title{
+	float: left;
+	margin-top: 40px;
+	margin-left: 15px;
+	font-size: 62px;
+	font-family: 'Russo One', sans-serif;
+}
+
+.copy{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.features h3{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+h3:after{
+	width: 200px;
+	height: 2px;
+	display: block;
+	background-color: #FF0000;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.arranging{
+	text-align: justify;
+}
+
+.features i{
+	font-size: 22px;
+	color: #FF0000;
+}
